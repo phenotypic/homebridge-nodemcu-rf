@@ -4,8 +4,6 @@
 #include <ESP8266mDNS.h>
 #include <RCSwitch.h>
 
-// GitHub Page = https://github.com/phenotypic/homebridge-nodemcu-rf
-
 // D3 = Transmitter Data Pin
 // VIN = Transmitter VCC (Power) pin
 // GND = Transmitter Ground
