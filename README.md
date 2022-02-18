@@ -6,7 +6,7 @@ This script interfaces with [homebridge](https://github.com/homebridge/homebridg
 
 * NodeMCU
 
-* RF transmitter module
+* 433MHz RF transmitter module
 
 * Knowledge the RF codes (see [below](#notes))
 
@@ -39,7 +39,11 @@ npm install -g homebridge-http
 
 ## Wiring
 
-![Diagram](https://i.ibb.co/DMvP5cB/RF-Diagram.jpg)
+| NodeMCU | RF Module |
+| --- | --- |
+| `VIN (5V)` | `VCC` |
+| `GND` | `GND` |
+| `D3` | `DATA (ATAD)` |
 
 ## Notes
 
